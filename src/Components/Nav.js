@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Menu, Text } from "grommet"
+import { Box, Text } from "grommet"
 import { Instagram } from "grommet-icons"
 import AuthButton from "./AuthButtons"
 
@@ -13,7 +13,7 @@ const NavBar = () => (
         align="center"
         justify="center"
         responsive={true}
-    >     
+    >
         <Instagram />
         <Text size="large" color="brand" style={{ marginLeft: 10 }}>
             Instaclone

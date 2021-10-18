@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./Components/Nav"
+import { Box } from "grommet"
+import {Grommet} from "grommet"
+
 
 const theme = {
   global: {
