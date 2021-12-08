@@ -1,4 +1,5 @@
 import NavBar from "./Components/Nav"
+import Feed from "./Components/Feed"
 import { Box } from "grommet"
 import {Grommet} from "grommet"
 
@@ -17,6 +18,7 @@ const App = () => (
   <Grommet theme={theme} full>
     <Box fill background="light-3">
       <NavBar />
+      <Feed />
     </Box>
   </Grommet>
 )
