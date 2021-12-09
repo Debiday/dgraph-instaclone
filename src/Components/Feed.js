@@ -73,7 +73,7 @@ const Feed = () => {
                 >
                     <Text size="small">{post.description}</Text>
                     <Heading level="5" margin="none">
-                    {post.likes == 1
+                    {post.likes === 1
                         ? `${post.likes} like`
                         : `${post.likes} likes`}
                     </Heading>
